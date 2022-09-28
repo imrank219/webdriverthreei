@@ -1,0 +1,108 @@
+{
+    "sessionId": "7f5ad74efcbfa1b9b35bc9d0504c55fa",
+    "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "104.0.5112.81",
+        "chrome": {
+            "chromedriverVersion": "104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307})",
+            "userDataDir": "C:\\Users\\IMRANK~1\\AppData\\Local\\Temp\\scoped_dir12224_446752929"
+        },
+        "goog:chromeOptions": {
+            "debuggerAddress": "localhost:54308"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+            "implicit": 0,
+            "pageLoad": 300000,
+            "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+    },
+    "config": {
+        "specs": [
+            "./test/specs/**/*.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "info",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "mocha",
+        "reporters": [
+            "spec"
+        ],
+        "services": [
+            "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+            "autoCompile": true,
+            "tsNodeOpts": {
+                "transpileOnly": true
+            },
+            "babelOpts": {}
+        },
+        "mochaOpts": {
+            "timeout": 60000,
+            "ui": "bdd"
+        },
+        "jasmineOpts": {
+            "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+            "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "onWorkerEnd": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://www.webdriveruniversity.com/",
+        "_": [],
+        "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+        "ignoredWorkerServices": []
+    }
+}
