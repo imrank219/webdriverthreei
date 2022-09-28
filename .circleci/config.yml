@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - checkout
-      - run: node --version
+      
 
       # Download and cache dependencies
      # - restore_cache:
