@@ -50,8 +50,8 @@ jobs:
 #          command: npm run report.ci
 #          when: always
 
- #     - store_test_results:
- #         path: ./report/junit
+      - store_test_results:
+          path: ./report/junit
 
 #      - store_artifacts:
 #          path: allure-report/
