@@ -23,6 +23,22 @@ exports.config = {
     specs: [
         './test/specs/**/*.js'
     ],
+
+    suites:{
+        smoke : [    'test/specs/onboardingflow-ui.spec.js',  
+        'test/specs/dashboard-ui.spec.js',
+                            'test/specs/deallist-ui.spec.js',
+                            'test/specs/accountsettings-ui.spec.js',
+                            'test/specs/eventlist-ui.spec.js',
+                            'test/specs/login-us.spec.js', 
+                  
+                    
+                   
+                 
+
+        ]
+
+    },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -54,7 +70,7 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 1,
         //
         browserName: 'chrome',
         acceptInsecureCerts: true
@@ -94,7 +110,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+    baseUrl: 'https://qa.3icap.com/login',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
