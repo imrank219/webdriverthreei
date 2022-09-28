@@ -2,13 +2,13 @@
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
- version: 2
+# version: 2
 
 jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: cimg/node:18.9.1
+      - image: cimg/node:16.17.1
 #      - image: circleci/openjdk:8-jdk-stretch
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
