@@ -35,7 +35,7 @@ describe('3i login page', () => {
       await expect(DashBoardPage.spotLightDeals).toBeDisplayed();
     //  await expect(DashBoardPage.threeiteamAccountManager).toBeDisplayed();
     //  await expect(DashBoardPage.threeiteamAccountName).toBeDisplayed();
-      await expect(DashBoardPage.askthreeihelp).toBeDisplayed();
+    //  await expect(DashBoardPage.askthreeihelp).toBeDisplayed();
       await expect(DashBoardPage.askthreeshareadeal).toBeDisplayed();
       await expect(DashBoardPage.seealldeals).toBeDisplayed();
       await expect(DashBoardPage.opendeals).toBeDisplayed();
