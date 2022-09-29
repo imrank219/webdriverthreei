@@ -44,7 +44,7 @@ jobs:
       - run:
           name: "Run tests"
           command: |
-            npm run smoke-tests
+            npx wdio --suite smoke
 
 #      - run:
 #          name: Generate Allure Report
