@@ -41,7 +41,12 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+ 
       - run:
+          name: Execute ESlint Check
+          command: npm run eslint-check
+
+     - run:
           name: "Run tests"
           command: |
             npm run smoke-tests
