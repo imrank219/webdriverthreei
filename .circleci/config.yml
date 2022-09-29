@@ -34,7 +34,7 @@ jobs:
       - run:
           name: "Install dependencies"
           command: |
-            npm install
+            npm install 
 
       - save_cache:
           paths:
@@ -42,9 +42,14 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run:
+          name: "Run config"
+          command: |
+            npx wdio config --yes
+
+      - run:
           name: "Run tests"
           command: |
-            npx wdio --suite smoke
+            npm run smoke-tests      
 
 #      - run:
 #          name: Generate Allure Report
