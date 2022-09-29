@@ -43,10 +43,10 @@ jobs:
 
  
       - run:
-          name: Execute ESlint Check
+          name: "Execute ESlint Check"
           command: npm run eslint-check
 
-     - run:
+      - run:
           name: "Run tests"
           command: |
             npm run smoke-tests
