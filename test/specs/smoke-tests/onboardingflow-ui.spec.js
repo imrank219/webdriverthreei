@@ -1,10 +1,10 @@
 
-import ContactUsPage from "F:/webdriverio-framework/test/pageObjects/smoke-tests/login-user.page";
-import DashBoardPage from "F:/webdriverio-framework/test/pageObjects/smoke-tests/dashboard.page";
-import eventsPage from "F:/webdriverio-framework/test/pageObjects/smoke-tests/events.page";
-import dealsPage from "F:/webdriverio-framework/test/pageObjects/smoke-tests/deals.page";
-import onboardingPage from "F:/webdriverio-framework/test/pageObjects/smoke-tests/onboarding.page";
-import membershipPage from "F:/webdriverio-framework/test/pageObjects/smoke-tests/membership.page"
+import ContactUsPage from "F:/3iAutoFrame/test/pageObjects/smoke-tests/login-user.page";
+import DashBoardPage from "F:/3iAutoFrame/test/pageObjects/smoke-tests/dashboard.page";
+import eventsPage from "F:/3iAutoFrame/test/pageObjects/smoke-tests/events.page";
+import dealsPage from "F:/3iAutoFrame/test/pageObjects/smoke-tests/deals.page";
+import onboardingPage from "F:/3iAutoFrame/test/pageObjects/smoke-tests/onboarding.page";
+import membershipPage from "F:/3iAutoFrame/test/pageObjects/smoke-tests/membership.page"
 //import profilePage from "../pageObjects/onboarding/profile.page"
 
 //import ContactUsPage from "../pageObjects/automation-test-store/contact-us2.page";

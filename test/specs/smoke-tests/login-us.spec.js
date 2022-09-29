@@ -1,6 +1,6 @@
 
-import ContactUsPage from "F:/webdriverio-framework/test/pageObjects/smoke-tests/login-user.page";
-import DashBoardPage from "F:/webdriverio-framework/test/pageObjects/smoke-tests/dashboard.page";
+import ContactUsPage from "F:/3iAutoFrame/test/pageObjects/smoke-tests/login-user.page";
+import DashBoardPage from "F:/3iAutoFrame/test/pageObjects/smoke-tests/dashboard.page";
 //import ContactUsPage from "../pageObjects/automation-test-store/contact-us2.page";
 
 describe('3i login page', () => {
