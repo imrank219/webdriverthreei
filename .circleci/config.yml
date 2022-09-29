@@ -44,7 +44,7 @@ jobs:
       - run:
           name: "Run tests"
           command: |
-            npm run wdio.conf.js
+            npx wdio
 
 #      - run:
 #          name: Generate Allure Report
